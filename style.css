@@ -28,7 +28,8 @@ body {
 }
 
 .container {
-    margin: 0px 85px 85px;
+    margin: 0px auto;
+    width: 1110px;
 }
 
 .catalog {
