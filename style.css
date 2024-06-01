@@ -1,0 +1,98 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat/Montserrat-Regular.eot') format('embedded-opentype'),
+         url('fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+         url('fonts/montserrat/Montserrat-Regular.woff') format('woff'),
+         url('fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat/Montserrat-Bold.eot') format('embedded-opentype'),
+         url('fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+         url('fonts/montserrat/Montserrat-Bold.woff') format('woff'),
+         url('fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.container {
+    margin: 0px 85px 85px;
+}
+
+.catalog {
+    background-image: url("images/background_image.png");
+    background-repeat: no-repeat;
+    padding-top: 220px;
+}
+
+.main-title {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 78px;
+    text-align: center;
+    color: #515076;
+    margin-bottom: 110px;
+}
+
+.total-card {
+    padding: 0;
+    list-style: none;
+    color: #515076;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+}
+
+.product-cards {
+    width: 340px;
+    padding: 25px;
+    line-height: 18px;
+    background-color: #F7F7FA;
+}
+
+.product-images {
+    width: 290px;
+    height: 245px;
+    display: inline-block;
+}
+
+.skin-annotation {
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #A5A3B9;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.product-name {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 5px;
+}
+
+.product-annotation {
+    margin-bottom: 15px;
+}
+
+.product-price {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
